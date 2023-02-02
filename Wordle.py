@@ -20,7 +20,7 @@ while True:
     num = 0
     boo = False
     while(g != final):
-        while(len(g)!=5 or boo == False):    
+        while(len(g)!=5):    
             g = input("guess ")
             g = g.lower()
             num+=1
